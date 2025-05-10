@@ -82,9 +82,9 @@ export const FrameByAnima = () => {
           </NavigationMenu>
         </div>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-7">
           <div className="flex flex-col text-black">
-            <div className="font-subtitle-4 font-[number:var(--subtitle-4-font-weight)] text-[length:var(--subtitle-4-font-size)] tracking-[var(--subtitle-4-letter-spacing)] leading-[var(--subtitle-4-line-height)] whitespace-nowrap [font-style:var(--subtitle-4-font-style)]">
+            <div className="font-subtitle-4 font-bold text-[20px] tracking-[var(--subtitle-4-letter-spacing)] leading-[var(--subtitle-4-line-height)] whitespace-nowrap [font-style:var(--subtitle-4-font-style)]">
               +998 88 009 19 00
             </div>
             <div className="opacity-60 font-body-5 font-[number:var(--body-5-font-weight)] text-[length:var(--body-5-font-size)] tracking-[var(--body-5-letter-spacing)] leading-[var(--body-5-line-height)] whitespace-nowrap [font-style:var(--body-5-font-style)]">
@@ -128,13 +128,13 @@ export const FrameByAnima = () => {
         </div>
 
         <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center px-40">
-          <h1 className="font-headline-1 font-[number:var(--headline-1-font-weight)] text-neutralwhite text-[length:var(--headline-1-font-size)] tracking-[var(--headline-1-letter-spacing)] leading-[var(--headline-1-line-height)] whitespace-nowrap [font-style:var(--headline-1-font-style)]">
+          <h1 className="font-extrabold mb-0 text-[80px] text-neutralwhite tracking-[var(--headline-1-letter-spacing)] leading-[var(--headline-1-line-height)] whitespace-nowrap [font-style:var(--headline-1-font-style)]">
             CHEGHCHERAN
           </h1>
-          <h2 className="font-headline-2 font-[number:var(--headline-2-font-weight)] text-neutralwhite text-[length:var(--headline-2-font-size)] tracking-[var(--headline-2-letter-spacing)] leading-[var(--headline-2-line-height)] whitespace-nowrap [font-style:var(--headline-2-font-style)] mt-4">
+          <h2 className="font-headline-1 mt-0 text-[56px] font-[number:var(--headline-2-font-weight)] text-neutralwhite tracking-[var(--headline-2-letter-spacing)] leading-[var(--headline-2-line-height)] whitespace-nowrap [font-style:var(--headline-2-font-style)">
             INTERNATIOANAL AIRPORT
           </h2>
-          <p className="max-w-[772px] font-body-2 font-[number:var(--body-2-font-weight)] text-neutralwhite text-[length:var(--body-2-font-size)] tracking-[var(--body-2-letter-spacing)] leading-[var(--body-2-line-height)] [font-style:var(--body-2-font-style)] mt-6">
+          <p className="max-w-[772px] mb-8 text-[18px] font-body-2 font-[number:var(--body-2-font-weight)] text-neutralwhite tracking-[var(--body-2-letter-spacing)] leading-[var(--body-2-line-height)] [font-style:var(--body-2-font-style)] mt-6">
             Design and construction of all the facilities at Ceghcheran Airport
             in Ghor Province, Afghanistan.
           </p>
@@ -174,7 +174,7 @@ export const FrameByAnima = () => {
           />
         </div>
 
-        <div className="absolute bottom-[80px] -right-[600px] w-full px-40 flex gap-4 overflow-hidden">
+        <div className="absolute bottom-[80px] -right-[645px] w-full px-40 flex gap-4 overflow-hidden">
           {projectCards.map((card) => (
             <Card
               key={card.id}
